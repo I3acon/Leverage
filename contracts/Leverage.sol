@@ -238,10 +238,12 @@ contract Leverage {
     }
 
     function closePosition() public payable {
+        uint256 borrow = borrowBalance[msg.sender] * 1e18;
+        uint256 repay = daiSwapBalance[msg.sender];
         swapETH();
         returnBorrowBalance();
         daiRepayBorrow();
-        if (borrowBalance[msg.sender] * 1e18 < daiSwapBalance[msg.sender]) {
+        if (repay < borrow) {
             daiRepayDebt();
         }
         withdrawETH();
