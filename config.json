@@ -1,0 +1,35 @@
+{
+  "contracts": {
+    "leverage": {
+      "address": "0x821f3361D454cc98b7555221A06Be563a7E2E0A6"
+    },
+    "chainlink": {
+      "address": "0x773616E4d11A78F511299002da57A0a94577F1f4"
+    },
+    "cETH":{
+      "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5"
+    },
+     "comptroller":{
+      "address": "0x3d9819210a31b4961b30ef54be2aed79b9c9cd3b"
+    },
+    "cDAI":{
+      "address": "0x5d3a536e4d6dbd6114cc1ead35777bab948e3643"
+    },
+    "DAI":{
+      "address": "0x6b175474e89094c44da98b954eedeac495271d0f"
+    },
+    "WETH":{
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2"
+    },
+    "priceFeed":{
+      "address": "0x6D2299C48a8dD07a872FDd0F8233924872Ad1071"
+    }
+  },
+  
+  "account":{
+    "privatekey": "ac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80"
+  },
+  "rpc":{
+    "url":"http://localhost:8545"
+  }
+}
